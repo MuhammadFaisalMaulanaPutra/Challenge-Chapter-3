@@ -1,0 +1,407 @@
+/* @import url("https://fonts.cdnfonts.com/css/helvetica-255"); */
+
+@font-face {
+  font-family: Helvetica;
+  font-weight: 400;
+  src: url(../assets/font/Helvetica.ttf);
+}
+
+@font-face {
+  font-family: HelveticaBold;
+  font-weight: 700;
+  src: url(../assets/font/Helvetica-Bold.ttf);
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* =========Navbar========= */
+
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.offcanvas-size-sm {
+  --bs-offcanvas-width: min(95vw, 250px) !important;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item .nav-link {
+  font-weight: 400;
+  color: black;
+}
+
+.btn-primary {
+  background-color: #5cb85f;
+  border: #5cb85f solid 1px;
+}
+
+.btn-primary:hover {
+  background-color: #5cb85f;
+  border: #f1f3ff solid 1px;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+/* =========Home========= */
+
+.home {
+  background-color: #f1f3ff;
+  margin-bottom: 100px;
+}
+
+.home h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.home p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.car-img {
+  position: relative;
+  z-index: 2;
+  top: 0px;
+  bottom: 0px;
+  margin-top: 30px;
+}
+
+.car-img img {
+  width: 117%;
+}
+
+.bg-block {
+  position: relative;
+  z-index: 1;
+  top: -243px;
+  width: 100vh;
+  height: 243px;
+  margin-bottom: -243px;
+  border-top-left-radius: 90px;
+  background-color: #0d28a6;
+}
+
+/* =========service========= */
+
+.service {
+  margin: 100px 0px 100px 0px;
+}
+
+.service img {
+  max-width: 100%;
+}
+
+.service h2 {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.service p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.service-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.service-list li {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+/* =========why us========= */
+
+.why-us {
+  margin: 100px 0px 100px 0px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.sub-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 24px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.card img {
+  width: 32px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.card h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* =========Carousel========= */
+
+.testimonial {
+  margin: 100px 0px 100px 0px;
+}
+
+.testimonial h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.testimonial h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel-card {
+  display: flex;
+  background-color: #f1f3ff;
+  padding: 46px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 270px;
+  align-items: center;
+}
+
+.item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.star {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #f9cc00;
+  width: 100%;
+  text-align: start;
+}
+
+.carousel-card p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.carousel-card p.card-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* =========Get Started======== */
+
+.get-started {
+  margin: 100px 0px 100px 0px;
+}
+
+.get-start {
+  background-color: #0d28a6;
+  height: 326px;
+  border-radius: 13px;
+  position: relative;
+}
+
+.gs-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.gs-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.gs-content p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+/* =========FAQ========= */
+
+.faq {
+  margin: 100px 0px 100px 0px;
+}
+
+.faq h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.faq p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.faq button {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* =========Footer========= */
+
+.footer {
+  margin: 100px 0px 100px 0px;
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+p.p-href {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer img {
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+
+/* =========Mobile========= */
+
+@media screen and (max-width: 600px) {
+  .car-img img {
+    max-width: 100%;
+  }
+
+  .bg-block {
+    height: 100px;
+    width: calc(100% + 12px);
+    border-top-left-radius: 40px;
+    top: -100px;
+    margin-bottom: -100px;
+  }
+
+  .title,
+  .sub-title {
+    text-align: center;
+  }
+
+  .service img {
+    max-width: 70%;
+  }
+
+  .carousel-card {
+    height: 372px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .get-start {
+    height: 400px;
+  }
+
+  .gs-content h1 {
+    font-size: 24px;
+  }
+
+  .gs-content p {
+    margin-bottom: 32px;
+  }
+
+  .item img {
+    margin-bottom: 30px;
+  }
+
+  span.star {
+    margin-bottom: 24px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer {
+    margin-bottom: 60px;
+  }
+}
