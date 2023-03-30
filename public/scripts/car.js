@@ -1,11 +1,7 @@
 class Car {
   static list = [];
 
-  static init(cars) {
-    this.list = cars.map((i) => new this(i));
-  }
-
-  constructor({
+  constructor(
     id,
     plate,
     manufacture,
@@ -20,8 +16,8 @@ class Car {
     year,
     options,
     specs,
-    availableAt,
-  }) {
+    availableAt
+  ) {
     this.id = id;
     this.plate = plate;
     this.manufacture = manufacture;
@@ -39,14 +35,11 @@ class Car {
     this.availableAt = availableAt;
   }
 
-  render() {
-    return `
-      <p>id: <b>${this.id}</b></p>
-      <p>plate: <b>${this.plate}</b></p>
-      <p>manufacture: <b>${this.manufacture}</b></p>
-      <p>model: <b>${this.model}</b></p>
-      <p>available at: <b>${this.availableAt}</b></p>
-      <img src="${this.image}" alt="${this.manufacture}" width="64px">
-    `;
+  static init(cars) {
+    this.list = cars.map((i) => new this(i));
+  }
+
+  getAllData() {
+    console.log(this.id);
   }
 }
