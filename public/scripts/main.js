@@ -27,7 +27,7 @@ function filter(driverType, date, passengers) {
       carsResult = carsResult.filter((car) => car.year.toString() == date);
       carsResult = carsResult.filter((car) => car.capacity >= passengers);
 
-      upData(car);
+      upData(carsResult);
     });
 }
 
